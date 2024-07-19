@@ -6,7 +6,7 @@ func RoundToNext5(n int) int {
 	} else if n > 5 && n <= 15 {
 		return 15
 	}
-	return 0
+	return 1
 }
 
 func main() {

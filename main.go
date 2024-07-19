@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func RoundToNext5(n int) int {
 	if n <= 5 {
 		return 5
@@ -10,4 +12,5 @@ func RoundToNext5(n int) int {
 }
 
 func main() {
+	fmt.Println("ky")
 }

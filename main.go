@@ -1,16 +1,11 @@
 package main
 
-import "fmt"
+/*
+HighAndLow("1 2 3 4 5")  // return "5 1"
+HighAndLow("1 2 -3 4 5") // return "5 -3"
+HighAndLow("1 9 3 4 -5") // return "9 -5"
+*/
+func HighAndLow(in string) string {
 
-func RoundToNext5(n int) int {
-	if n <= 5 {
-		return 5
-	} else if n > 5 && n <= 15 {
-		return 15
-	}
-	return 1
-}
-
-func main() {
-	fmt.Println("ksdy")
+	return "throw towel"
 }
